@@ -1,0 +1,28 @@
+body {
+  background-image: url('background.jpg');
+   background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+   background-color:black;
+
+}
+
+form {
+  
+margin: 50px;
+    background-color: #ffffff;
+    border: 3px solid black;
+    opacity: 0.85;
+    filter: alpha(opacity=85);
+font-size: 120%;
+width: 500px;
+
+
+}
+
+.mytext {
+    width: 300px;
+	height:35px;
+}
+
+

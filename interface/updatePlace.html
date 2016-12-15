@@ -1,0 +1,49 @@
+
+
+<html>
+<title>WORLD OF BLIZZARD</title>
+<head>
+ <link rel=stylesheet href="style.css" type="text/css" media=screen />
+</head>
+
+<center>
+
+
+
+<form class="pure-form pure-form-aligned" action="updatePlace.php" method="post">
+    <fieldset><br>
+<h3>Insert the ID of the Place you want to update and then update the desired field</h3>
+        <div class="pure-control-group">
+            <label for="id">Place ID:</label>
+            <input id="id" type="text" placeholder="(NOT NULL)" name="placeId" class="mytext">
+        </div>
+
+
+        <div class="pure-control-group">
+            <label for="name">Place Name:</label>
+            <input id="name" type="text" placeholder="(NOT NULL)" name="placeName" class="mytext">
+        </div>
+
+	<div class="pure-control-group">
+            <label for="type">Place Type:</label>
+            <input id="type" type="text" placeholder="(NOT NULL)" name="placeType" class="mytext">
+        </div>
+
+	<div class="pure-control-group">
+            <label for="wid">World ID:</label>
+            <input id="wid" type="text" placeholder="(NOT NULL)" name="worldId" class="mytext">
+        </div>
+
+	<div class="pure-control-group">
+            <label for="desc">Description:</label>
+            <input id="desc" type="text" placeholder="" name="placeDisc" class="mytext">
+        </div><br>
+
+        <div class="pure-controls">
+            <button  style="width:150;height:40" type="submit" class="pure-button pure-button-primary">Submit</button>
+        </div><br>
+    </fieldset>
+<h3><a href="main.html">Back to Main</a></h3></form>
+</form>
+</center>
+</body></html>
